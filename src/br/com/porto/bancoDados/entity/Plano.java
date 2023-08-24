@@ -67,15 +67,16 @@ public class Plano {
 
     @Override
     public String toString() {
-        return "Plano{" +
-                "nomePlano='" + nomePlano + '\n' +
-                ", cobertura='" + cobertura + '\n' +
-                ", prazoVigencia='" + prazoVigencia + '\n' +
-                ", carencia='" + carencia + '\n' +
-                ", limiteCobertura=" + limiteCobertura + '\n' +
-                ", valor=" + valor +
-                ", ID=" + idPlano +
-                '}';
+        return "----------------------------------------" + '\n' +
+                "| Plano: " + '\n' +
+                "| Nome do plano: " + nomePlano + '\n' +
+                "| Cobertura: " + cobertura + '\n' +
+                "| Prazo de vigência: " + prazoVigencia + '\n' +
+                "| Carencia: " + carencia + '\n' +
+                "| limite da cobertura: " + limiteCobertura + '\n' +
+                "| valor: " + valor + '\n' +
+                "| ID: " + idPlano + '\n' +
+                "----------------------------------------";
     }
 }
 
